@@ -8,4 +8,5 @@ default userset_test_5fset = false
 
 userset_test_5fset {
 	attributes.user.trust < 0.5
+	attributes.user.roles != "admin"
 }
